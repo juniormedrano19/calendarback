@@ -130,8 +130,8 @@ const token= await generarJWT(uid, name);
     res.json({
         ok:true,
        /*  msg:'renew', */ /* renew del token  */
-      /*  uid,
-       name, */
+       uid,
+       name,
        token,
     })
 
